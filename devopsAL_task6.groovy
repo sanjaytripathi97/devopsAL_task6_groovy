@@ -8,6 +8,7 @@ job("task6_devopsAL_job_1"){
   }
   steps{
     shell('''sudo rm -rvf * /web6
+sudo mkdir /web6
 sudo cp -rvf * /web6
 ''')
   }
