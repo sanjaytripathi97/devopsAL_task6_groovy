@@ -78,8 +78,7 @@ triggers {
     upstream("task6_devopsAL_job_3", "SUCCESS")
   }
   steps{
-    shell('''
-    sudo python3 /web6/mail_failure.py
+    shell('''sudo python3 /web6/mail_failure.py
 ''')
 }
 }
